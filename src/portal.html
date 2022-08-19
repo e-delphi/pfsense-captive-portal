@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Plácido</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="captiveportal-favicon.ico">
+	<link rel="stylesheet" type="text/css" href="captiveportal-font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="captiveportal-material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="captiveportal-util.css">
+	<link rel="stylesheet" type="text/css" href="captiveportal-main.css">
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url(&#39;captiveportal-bg.jpg&#39;);">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" method="post" action="$PORTAL_ACTION$">
+					<span class="login100-form-logo">🖥️</span>
+					<span class="login100-form-title p-b-34 p-t-27">Internet Plácido</span>
+					<div class="wrap-input100 validate-input" data-validate="Informe o usuário">
+						<input class="input100" name="auth_user" type="text" placeholder="Usuário">
+						<span class="focus-input100" data-placeholder="👤"></span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate="Informe a senha">
+						<input class="input100" name="auth_pass" type="password" placeholder="Senha">
+						<span class="focus-input100" data-placeholder="🔑"></span>
+					</div>
+					<div class="container-login100-form-btn">
+						<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+						<input name="zone" type="hidden" value="$PORTAL_ZONE$">
+						<button class="login100-form-btn" name="accept" type="submit" value="Continue">Acessar</button>
+					</div>
+				 </form>
+			</div>
+		</div>
+	</div>
+	<script src="captiveportal-jquery-3.2.1.min.js.baixados"></script>
+	<script src="captiveportal-main.js.baixados"></script>
+</body>
+</html>
